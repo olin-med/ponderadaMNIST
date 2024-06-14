@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digit Recognizer</title>
+</head>
+<body>
+    <h1>Upload an image of a digit</h1>
+    <form action="/predict/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
